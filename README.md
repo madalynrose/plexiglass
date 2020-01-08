@@ -1,4 +1,7 @@
 # plexiglass
+
+![plexiglass icon](https://raw.githubusercontent.com/madalynrose/plexiglass/master/plexiglass-150.png)
+
 This is a monorepo for libraries that remove mouse feedback to encourage keyboard and screen reader testing. 
 By installing plexiglass on a page, users can still see the page without being able to "touch" it with a mouse.
 Additionally, that plexiglass can be tinted opaque, further restricting the way the user can interact with the page.
