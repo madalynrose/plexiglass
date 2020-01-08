@@ -1,22 +1,25 @@
 {
-  "name": "gatsby-plugin-plexiglass",
-  "version": "0.0.1",
-  "description": "Plugin to disable mouse feedback and encourage accessibility keyboard testing",
-  "main": "index.js",
-  "keywords": [
-    "gatsby",
-    "gatsby-plugin",
-    "no-mouse-days",
-    "a11y",
-    "mouse",
-    "keyboard",
-    "plexiglass"
-  ],
-  "license": "MIT",
-  "peerDependencies": {
-    "gatsby": "^2.0.0"
-  },
-  "dependencies": {
-    "no-mouse-days": "^0.0.2"
-  }
+	"name": "gatsby-plugin-plexiglass",
+	"version": "0.0.1",
+	"description": "Plugin to disable mouse feedback and encourage accessibility keyboard testing",
+	"main": "index.js",
+	"keywords": [
+		"gatsby",
+		"gatsby-plugin",
+		"no-mouse-days",
+		"a11y",
+		"mouse",
+		"keyboard",
+		"plexiglass"
+	],
+	"license": "MIT",
+	"peerDependencies": {
+		"gatsby": "^2.0.0"
+	},
+	"dependencies": {
+		"no-mouse-days": "^0.0.2",
+		"gatsby": "^2.0.0"
+	},
+	"author": "Madalyn Parker <madalyn@gatsbyjs.com>",
+	"homepage": "https://github.com/madalynrose/plexiglass/tree/master/gatsby-plugin-plexiglass"
 }
