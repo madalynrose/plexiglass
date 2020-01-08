@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="glass_options.css"/>
+  </head>
+
+<body>
+  <div id="popup-content">
+    <fieldset>
+        <legend>Mouse Interactions</legend>
+        <input type="radio" id="glass-off" name="glass" value="false">
+        <label for="glass-off">On</label>
+        <input type="radio" id="glass-on" name="glass" value="true">
+        <label for="glass-on">Off</label>
+    </fieldset>
+    <fieldset>
+        <legend>Screen Overlay</legend>
+        <input type="radio" id="tint-on" name="tint" value="true">
+        <label for="tint-on">On</label>
+        <input type="radio" id="tint-off" name="tint" value="false">
+        <label for="tint-off">Off</label>
+    </fieldset>
+  </div>
+  <div id="error-content" class="hidden">
+    <p>Glass installation failed.</p><p>Try a different page.</p>
+  </div>
+  <script src="glass_options.js"></script>
+</body>
+
+</html>
