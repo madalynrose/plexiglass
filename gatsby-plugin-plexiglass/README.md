@@ -30,7 +30,7 @@ It's a bit like manually testing your own code: if you know how it's meant to be
 ```javascript
 // In your gatsby-config.js
 {
-  resolve: "gatsby-plugin-no-mouse",
+  resolve: "gatsby-plugin-plexiglass",
   options: {
     noMouseDay: 2, //leaving this blank will turn off mouse feedback all of the time
     screenOverlay: true //option to add opaque overlay to body of pages
