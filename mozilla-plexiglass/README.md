@@ -13,7 +13,7 @@ This is accomplished by:
 -   removing pointer events
 -   adding a black overlay to the page
 
-With mouse interactions off, users can challenge themselves to navigate pages using solely the keyboard. With the screen overlay on, users will have to rely on the keyboard and a screen reader to use the page.
+With mouse interactions off, users can challenge themselves to navigate pages using solely the keyboard. With the screen overlay on, users will have to rely on the keyboard and a screen reader to use the page. (NOTE: screen reader testing with FireFox is best on Windows.)
 
 It's a bit like manually testing your own code: if you know how it's meant to behave, your own interactions with it will match the patterns your code expects; visually seeing how far away an element is on the page or noting visual landmarks will change the way you navigate with the keyboard and will influence your experience of how long or frustrating a task is.
 
