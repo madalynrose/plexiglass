@@ -28,33 +28,6 @@ function executeContentScript() {
 	});
 }
 
-// function selectTheRightButtons(event) {
-// 	const { name, value } = event.target;
-
-// 	switch (name) {
-// 		case 'glass':
-// 			if (value === 'true') {
-// 				glassOnElement.checked = true;
-// 				glassOffElement.checked = false;
-// 			} else {
-// 				glassOnElement.checked = false;
-// 				glassOffElement.checked = true;
-// 			}
-// 			break;
-// 		case 'overlay':
-// 			if (value === 'true') {
-// 				overlayOnElement.checked = true;
-// 				overlayOffElement.checked = false;
-// 			} else {
-// 				overlayOnElement.checked = false;
-// 				overlayOffElement.checked = true;
-// 			}
-// 			break;
-// 		default:
-// 			break;
-// 	}
-// }
-
 syncPlexiglassOptionsFromStorage();
 executeContentScript();
 
@@ -63,7 +36,6 @@ document.getElementById('popup-content').onclick = function(event) {
 	switch (name) {
 		case 'glass':
 		case 'overlay':
-			//selectTheRightButtons(event);
 			syncPlexiglassOptionsToStorage();
 			executeContentScript();
 			break;
