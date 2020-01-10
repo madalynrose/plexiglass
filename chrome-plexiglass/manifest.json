@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "Plexiglass",
+	"version": "1.0",
+	"description": "Removes mouse cursor and adds black opaque overlay to page.",
+	"icons": {
+		"32": "icons/plexiglass-32.png",
+		"48": "icons/plexiglass-48.png"
+	},
+	"permissions": ["activeTab", "storage"],
+	"browser_action": {
+		"default_icon": {
+			"32": "icons/plexiglass-32.png",
+			"48": "icons/plexiglass-48.png"
+		},
+		"default_popup": "glass_options.html",
+		"default_title": "Plexiglass Options"
+	}
+}
