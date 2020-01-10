@@ -6,7 +6,7 @@
   chrome-plexiglass
 </h1>
 
-This add-on is inspired by [@marcysutton](https://github.com/marcysutton)'s [no-mouse-days](https://github.com/marcysutton/no-mouse-days) library and allows developers to disable mouse feedback during development. By installing plexiglass on a page, users can still see the page without being able to "touch" it with a mouse. Additionally, that plexiglass can be tinted opaque, further restricting the way the user can interact with the page.
+This extension is inspired by [@marcysutton](https://github.com/marcysutton)'s [no-mouse-days](https://github.com/marcysutton/no-mouse-days) library and allows developers to disable mouse feedback during development. By installing plexiglass on a page, users can still see the page without being able to "touch" it with a mouse. Additionally, that plexiglass can be tinted opaque, further restricting the way the user can interact with the page.
 
 This is accomplished by:
 
