@@ -16,7 +16,7 @@ With pointer events taken away, users can challenge themselves to navigate pages
 With a black overlay, users will have to rely on the keyboard and a screen reader to use the page.
 
 ### mozilla-plexiglass
-This is a Mozilla addon that allows you to quickly toggle plexiglass options (pointer events and tint). It is recommended that you use this addon's tint option only on Windows, as VoiceOver does not play well with Firefox.
+This is a Mozilla addon that allows you to quickly toggle plexiglass options (pointer events and tint).
 
 ### gatsby-plugin-plexiglass
 This is a Gatsby plugin that includes @marcysutton's [no-mouse-days](https://github.com/marcysutton/no-mouse-days) library. It allows you to choose a day to disable your mouse feedback and adds the option to add the opaque overlay in your `gatsby-config` file. These options will only be applied in development.
